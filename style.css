@@ -1,0 +1,34 @@
+body {
+	background-color: #FFEBCD;
+}
+
+h1 {
+	color: #9932CC;
+	text-align: center;
+
+}
+
+h2 {
+	color: #0000FF;
+	text-align: center;
+
+}
+
+p {
+	color: #800000;
+	font-size: 20px;
+}
+
+.text {
+	font-style: italic;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: cornflowerblue;
+}
+.container {
+	max-width: 1260px;
+    margin: 0 auto;
+}
