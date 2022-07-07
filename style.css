@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #FFEBCD;
 }
@@ -22,13 +26,24 @@ p {
 .text {
 	font-style: italic;
 }
+
 .navigation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    background: cornflowerblue;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: cornflowerblue;
 }
+
 .container {
 	max-width: 1260px;
-    margin: 0 auto;
+	margin: 0 auto;
+	padding: 30px;
+}
+button {
+position: fixed;
+top: 20px;
+left: 20px;
+background-color: coral;
+padding: 20px;
+border: solid 5px black;
 }
